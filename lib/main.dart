@@ -26,7 +26,7 @@ class BudgetApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         useMaterial3: true,
       ),
-      home: const OnboardingFlow(),
+      home: const PersonalWelcomeFlow(),
     );
   }
 }
