@@ -1,0 +1,11 @@
+services:
+  plaid-backend:
+    build: .
+    ports:
+      - "5050:5050"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    environment:
+      PYTHONUNBUFFERED: 1

@@ -1,3 +1,8 @@
 flask
 requests
 python-dotenv
+sqlalchemy
+flask-sqlalchemy
+plaid-python
+flask-bcrypt
+pyjwt
